@@ -1,0 +1,20 @@
+*fs.writeFile(): 
+
+-fs.writeFile() is used to write data to a file in Node.js. 
+
+-If the file already exists, it overwrites the existing content. 
+
+-If the file doesn’t exist, it creates a new one. 
+
+-It works asynchronously and uses a callback to check for errors or success. 
+
+
+*fs.readFile(): 
+
+-fs.readFile() is used to read the content of a file. 
+
+-It reads the file asynchronously, meaning it doesn’t block other code. 
+
+-If the file is missing or an error occurs, it returns an error through the callback. 
+
+-If successful, it returns the file content as a string.
